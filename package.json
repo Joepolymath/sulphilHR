@@ -1,0 +1,30 @@
+{
+  "name": "sulphil-hr",
+  "version": "1.0.0",
+  "description": "A practice HR management project I am using to mentor the backend team at sulphil tech hub",
+  "main": "server.js",
+  "repository": "https://github.com/Joepolymath/sulphilHR",
+  "author": "Joshua Ajagbe",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src --out-dir dist",
+    "dev": "nodemon ./src/server.js",
+    "start": "node ./dist/server.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}

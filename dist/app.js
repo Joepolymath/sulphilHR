@@ -1,0 +1,11 @@
+"use strict";
+
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.status(200).json({
+    message: 'Welcome',
+    status: 'success'
+  });
+});
+module.exports = app;
