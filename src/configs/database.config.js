@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { cli } = require('winston/lib/winston/config');
 
 const connectDB = async (uri) => {
   try {

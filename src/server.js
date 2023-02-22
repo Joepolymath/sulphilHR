@@ -1,5 +1,5 @@
 const dotenv = require('dotenv');
-const colors = require('colors');
+require('colors');
 const app = require('./app');
 const logger = require('./configs/logger.config');
 const connectDB = require('./configs/database.config');
